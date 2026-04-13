@@ -1,0 +1,52 @@
+$sidebar-width: var(--sidebarWidth, 200px);
+$sidebar-width--collapsed: 50px;
+$app-main-font-size: 12px;
+$search-box-height: var(--searchBoxHeight, 52px);
+$app-header-height: 36px;
+
+/* app主题色（可自定义） */
+$app-theme-color: var(--appThemeColor, #3963bc);
+
+/* sidebar激活色 */
+$sidebar-active-color: #fff;
+
+:root {
+	--el-color-primary: #{$app-theme-color}; /* 修改element-plus默认主题色*/
+	--el-border-color: #e0e0e0; /* 修改element-plus默认边框色*/
+	--el-border-color-lighter: #e8e8e8; /* 修改element-plus默认表格边框色*/
+	--el-component-size: 28px; /* 修改element-plus组件高度*/
+	--app-theme-color: #{$app-theme-color}; /* 主题色*/
+	--el-form-inline-content-width: unset;
+}
+$app-light-color: #fbf5ea;
+$app-second-theme-color: #fbf5ea;
+$app-main-font-color: #181b21;
+$app-border-color: #e8e8e8;
+
+$btn-hover-color: #f8f8f8;
+
+/* table 配色 */
+$thead-bgcolor: #f4f4f4;
+$td-bgcolor: #f8f8f8;
+$td-color: #{$app-main-font-color};
+$table-border-color: #ebebeb;
+$input-border-color: #e0e0e0;
+
+/* 列表 配色*/
+$list-hover-bg-color: var(
+	--listHoverbgColor,
+	#f4f5f7
+); /* 列表鼠标悬停背景色（可自定义） */
+
+/* 不可用字体颜色 */
+$disabled-font-color: #c0c4cc;
+
+/* 错误相关颜色 */
+$err-color: #f56c6c;
+
+/* 其它颜色变量 */
+$grey-color: #999;
+$gray-color: #a1a2a5;
+$blue-color: #3168EC;
+$green-color: #2da300;
+$red-color: #ec3131;
